@@ -1,6 +1,6 @@
 /**
  * 手机狂欢城
- * cron: 10 0-18/6 * * *
+ * cron: 1 0-18/6 * * * jd_carnivalcity.js
  */
 
 const $ = new Env('京东手机狂欢城');
