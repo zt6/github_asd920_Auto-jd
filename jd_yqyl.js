@@ -52,7 +52,7 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
     let authorCode = "";
     if(helpAuthorFlag){
         try{
-            helpAuthorInfo = await getAuthorCodeList('https://gitee.com/asd920/updateTeam/raw/main/shareCodes/yqyl.json');
+            helpAuthorInfo = await getAuthorCodeList('https://raw.0z.gs/asd920/updateTeam/main/shareCodes/yqyl.json');
         }catch (e) {}
         if(!helpAuthorInfo){
             helpAuthorInfo = [];
